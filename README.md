@@ -2,32 +2,19 @@
 
 [![CircleCI](https://circleci.com/gh/twilio/twilio-video-app-react.svg?style=svg)](https://circleci.com/gh/twilio/twilio-video-app-react)
 
-## What is it
+## Pré-requisitos
 
-This application demonstrates a multi-party video application built with [Twilio's Programmable Video JS SDK](https://github.com/twilio/twilio-video.js), [Twilio's Conversations JS SDK](https://www.npmjs.com/package/@twilio/conversations), and [Create React App](https://github.com/facebook/create-react-app).
-
-- Deploy to [Twilio Serverless](https://www.twilio.com/docs/runtime/functions-assets-api) in just a few minutes
-- No other infrastructure is required
-- No code changes are required before your first deploy
-- There is no cost associated with deploying the app
-- Go Rooms usage is free, however [standard usage charges](https://www.twilio.com/video/pricing) apply for Programmable Video when using the app with all other Room types. The chat feature is built using the Conversations API and is free-of-cost up to 200 monthly active users, [standard usage charges](https://www.twilio.com/conversations/pricing) apply thereafter.
-
-![App Preview](https://user-images.githubusercontent.com/12685223/94631109-cfca1c80-0284-11eb-8b72-c97276cf34e4.png)
-
-## Prerequisites
-
-You must have the following installed:
+Será necessário ter instalado:
 
 - [Node.js v12+](https://nodejs.org/en/download/)
 - NPM v6+ (comes installed with newer Node versions)
 
-## Install Dependencies
+## Instalação de dependenciais 
 
-Run `npm install` to install all dependencies from NPM.
+Rode `npm install` para fazer a instalação das dependenciais.
 
-If you want to use `yarn` to install dependencies, first run the [yarn import](https://classic.yarnpkg.com/en/docs/cli/import/) command. This will ensure that yarn installs the package versions that are specified in `package-lock.json`.
 
-## Install Twilio CLI
+## Instalar Twilio CLI
 
 The app is deployed to Twilio using the Twilio CLI. Install twilio-cli with:
 
