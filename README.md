@@ -252,5 +252,3 @@ See [.env.example](.env.example) for an explanation of the environment variables
 - [Twilio CLI RTC Plugin](https://github.com/twilio-labs/plugin-rtc)
 
 ## License
-
-See the [LICENSE](LICENSE) file for details.
